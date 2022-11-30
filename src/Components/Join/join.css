@@ -1,0 +1,29 @@
+.join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email{
+    display: flex;
+    gap: 4rem;
+    background-color:rgba(61, 180, 170, 1);
+    padding:1rem;
+    max-width: 30rem;
+}
+input{
+    background-color: gray;
+    padding-left: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+}   

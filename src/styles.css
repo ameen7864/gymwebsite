@@ -1,0 +1,42 @@
+/* make variables */
+:root{
+  --lightgray:#090909;
+  --gray:#9c9c9c;
+  --orange:#f48915;
+  --darkgray:#464053;
+  --calorycard:#656565;
+  --plancard:linear-gradient(to right, #f12711, #f5af19);
+  --appcolor:#3c3f45;
+}
+.app{
+  /* background-image: url(''); */
+  mix-blend-mode: overlay;
+  background-color:var(--appcolor);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: #eccc68; 
+  
+}
+.stroke-text{
+  color: transparent;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color:white ;
+}
+.btn{
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+}
+.btn:hover{
+  cursor: pointer;
+}

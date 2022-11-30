@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    gap: 3rem;
+    background: rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: 5rem;
+}
+.social{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 30rem;
+}
+.fb{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color:rgb(105, 48, 48);
+    padding: 5px;
+    cursor: pointer;
+}
